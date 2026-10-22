@@ -1,0 +1,29 @@
+{
+  "name": "lab-2-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+   "type": "module",
+ "scripts": {
+  "test": "vitest run",
+  "test:watch": "vitest",
+  "coverage": "vitest run --coverage"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanMedentsi/lab-2-automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/IvanMedentsi/lab-2-automation/issues"
+  },
+  "homepage": "https://github.com/IvanMedentsi/lab-2-automation#readme",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^5.0.5",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  }
+}
